@@ -12,8 +12,17 @@
     <main>
 
         <nav>
-            <div class = "name">Nate Sasapan</div>
-            <div class = "contact"><a href="contact.html">Contact Nate</a></div>
+            <p>
+                <span class = "LinkedIn" style="order: -3;"><a href="https://www.linkedin.com/in/nate-sasapan-901115255/">LinkedIn</a></span>
+                <span class = "bullet" style="order: -2;"> • </span>
+                <span class = "Github"><a href="https://github.com/natesasapan">Github</a></span>
+                <span class = "bullet"> • </span>
+                <span class = "name">Nathan Sasapan</span>
+                <span class = "bullet"> • </span>
+                <span class = "Resume"><a href="resume.html">Resume</a></span>
+                <span class = "bullet"> • </span>
+                <span class = "contact"><a href="contact.html">Contact Nate</a></span>
+            </p>
         </nav>
 
         <section class = boss>
@@ -27,7 +36,39 @@
 
         <section>
             <h2>Education</h2>
-            <p>University of Georgia, Franklin College of Arts and Sciences - Athens, GA - Bachelor of Science in Computer Science, Spring 2025. GPA: 3.58/4.00. Relevant courses: Algorithms, Networks, Data Structures, Computational Science, Theory of Computing</p>
+            <div class="education">
+                <h3><i>University of Georgia, Franklin College of Arts and Sciences</i> - Bachelor of Science in Computer Science</h3>
+                <h4><b>GPA: 3.55/4.00</b></h4>
+                <h4><b>Expected Graduation: </b>May 2025</h4>
+                <hr class="divider">
+                
+                <div class="course-container">
+                    <div class="course-column">
+                        <h4>Completed Courses:</h4>
+                        <ul class="course-list">
+                            <li>Algorithms</li>
+                            <li>Data Structures</li>
+                            <li>Theory of Computing</li>
+                            <li>Web Programming</li>
+                            <li>Networks</li>
+                            <li>Systems Programming</li>
+                            <li>Discrete Math</li>
+                            <li>Scientific Computing</li>
+                            <li>Computing Ethics</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="course-column">
+                        <h4>In Progress:</h4>
+                        <ul class="course-list">
+                            <li>Software Engineering</li>
+                            <li>Mobile Software Development</li>
+                            <li>Computer Architecture</li>
+                            <li>Human Computer Interaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     
         <section>
@@ -36,7 +77,7 @@
                 <dt>UGA Presidential Scholar</dt>
                 <dd>Fall 2023</dd>
                 <dt>UGA Dean's List</dt>
-                <dd>Spring 2022, Fall 2022, Fall 2024</dd>
+                <dd>Spring 2022, Fall 2022, Spring 2023, Fall 2024</dd>
                 <dt>HOPE Scholarship recipient</dt>
                 <dd>Fall 2020 - Spring 2025</dd>
                 <dt>UGAHacks 8</dt>
@@ -60,32 +101,39 @@
         <section>
             <h2>Projects</h2>
             <div class="three-col">
-                <div class="card">
-                    <img src="images/pd.jpg" alt="DreamHaven Project">
-                    <h3>DreamHaven</h3>
-                    <ul>
-                        <li>Conducted extensive research and analysis to identify innovative solutions, and selected the most viable approach</li>
-                        <li>Collaborated closely with team members, assigning specific roles and responsibilities based on individual skills and expertise</li>
-                        <li>Conducted thorough testing and debugging to ensure the functionality, usability, and performance of the developed solution</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="images/gorilla.png" alt="Gorilla Cars">
-                    <h3>Gorilla Cars</h3>
-                    <ul>
-                        <li>Led 4-person team developing full-stack React website with user authentication using MongoDB Atlas</li>
-                        <li>Implemented responsive multi-page design, database integration, and secure credential storage</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="images/cinema.jpg" alt="Cinebook">
-                    <h3>CineBook</h3>
-                    <ul>
-                        <li>Led 5-person team developing full-stack React website with user authentication using MongoDB Atlas</li>
-                        <li>Added react routing, separate admin portal, and utilizing organizational structure to facilitate merging of frontend and backend</li>
-                        <li>Implemented SDLC practices, utilizing the Agile method to rapidly enable prototype development to meet sprint requirements</li>
-                    </ul>
-                </div>
+                <a href="https://github.com/Soham231/DreamHaven" class="card-link">
+                    <div class="card">
+                        <img src="images/pd.jpg" alt="DreamHaven Project">
+                        <h3>DreamHaven</h3>
+                        <ul>
+                            <li>Conducted extensive research and analysis to identify innovative solutions, and selected the most viable approach</li>
+                            <li>Collaborated closely with team members, assigning specific roles and responsibilities based on individual skills and expertise</li>
+                            <li>Conducted thorough testing and debugging to ensure the functionality, usability, and performance of the developed solution</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/natesasapan/gorilla-cars" class="card-link">
+                    <div class="card">
+                        <img src="images/gorilla.png" alt="Gorilla Cars">
+                        <h3>Gorilla Cars </h3>
+                        <ul>
+                            <li>Led 4-person team developing full-stack React website with user authentication using MongoDB Atlas</li>
+                            <li>Implemented responsive multi-page design, database integration, and secure credential storage</li>
+                            <li>Added react routing, middleware, and organizational structure to facilitate merging of frontend and backend</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/tsdaniels/cinema-ebooking" class="card-link">
+                    <div class="card">
+                        <img src="images/cinema.jpg" alt="Cinebook">
+                        <h3>CineBook</h3>
+                        <ul>
+                            <li>Led 5-person team developing full-stack React website with user authentication using MongoDB Atlas</li>
+                            <li>Implemented SDLC practices, utilizing the Agile method to rapidly enable prototype development to meet sprint requirements</li>
+                            <li>Created secure email and linked it with application and database, enabling user verification through email</li>
+                        </ul>
+                    </div>
+                </a>
             </div>
         </section>
 
@@ -93,7 +141,7 @@
     </main>
 
     <footer>
-        <p><a href="contact.html">&copy; Nate Sasapan</a> • <a href="https://www.linkedin.com/in/nate-sasapan-901115255/"> LinkedIn</a></p>
+        <p>&copy; Nate Sasapan</a></p>
     </footer>
 
     <script src="script.js"></script>
