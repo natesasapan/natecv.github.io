@@ -435,3 +435,52 @@ h2 {
 .form-group input[type="submit"]:hover {
     background-color: #2980b9;
 }
+
+.resumebox {
+    background-image: url('../images/sunback.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: #e6f3ff;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.resumebox h1 {
+    text-align: center;
+    margin:5px;
+    margin-bottom: 20px;
+}
+
+.resumebox embed {
+    display: block;
+    margin: 0 auto;
+}
+
+.resumebox p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin:5px;
+}
+
+.resumebox div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resumebox .download-button {
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 20px auto;
+}
