@@ -351,6 +351,13 @@ h2 {
     margin: 0;
 }
 
+.card h5{
+    color: #e9e9e9;
+    padding: 5px 15px 0;
+    margin: 0;
+    font-weight: 300;
+}
+
 .card ul {
     padding: 0 15px 15px;
     list-style-type: none;
