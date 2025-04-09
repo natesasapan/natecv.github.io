@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+    nav p {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    nav p span {
+      order: 0 !important; /* Override any custom ordering */
+    }
+    
+    .bullet {
+      display: none; /* Hide bullets on mobile */
+    }
+    
+    .name {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .three-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .three-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .boss {
+      padding: 30px 15px;
+    }
+    
+    .boss h1 {
+      font-size: 2.2em;
+    }
+    
+    section {
+      padding: 10px;
+      margin: 15px 10px;
+    }
+    
+    section h2 {
+      font-size: 1.5em;
+    }
+    
+    .course-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .course-column:first-child {
+      border-right: none;
+      border-bottom: 1px solid #bbb;
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.card img {
+height: auto; /* Override fixed height */
+max-height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .one-col {
+      padding: 15px;
+      margin: 15px 10px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+      padding: 8px;
+    }
+
+}
+
+.boss, .contactboss, .resumebox {
+    background-attachment: scroll; /* Better for mobile */
+}
