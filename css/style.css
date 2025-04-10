@@ -491,3 +491,9 @@ h2 {
     display: inline-block;
     margin: 20px auto;
 }
+
+.resume {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+}

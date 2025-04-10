@@ -96,6 +96,14 @@ max-height: 200px;
 
 }
 
+@media screen and (max-width: 800px) {
+  .resume {
+    width: 350px;
+    height: 450px;
+  }
+
+}
+
 .boss, .contactboss, .resumebox {
     background-attachment: scroll; /* Better for mobile */
 }
