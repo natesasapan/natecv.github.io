@@ -217,11 +217,6 @@ section h2 {
     min-width: 250px;
 }
 
-.course-column:first-child {
-    border-right: 1px solid #bbb;
-    padding-right: 25px;
-}
-
 .course-list {
     list-style-type: none;
     padding-left: 0;
