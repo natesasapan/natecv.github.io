@@ -1,0 +1,267 @@
+---
+title: About Me
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nate Sasapan</title>
+    <meta name="description" content="Landing Page with information about Nate">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <main>
+
+        <nav>
+            <p>
+                <span class = "LinkedIn" style="order: -3;"><a href="https://www.linkedin.com/in/nate-sasapan-901115255/">LinkedIn</a></span>
+                <span class = "bullet" style="order: -2;"> • </span>
+                <span class = "Github"><a href="https://github.com/natesasapan">Github</a></span>
+                <span class = "bullet"> • </span>
+                <span class = "name">Nathan Sasapan</span>
+                <span class = "bullet"> • </span>
+                <span class = "Resume"><a href="resume.html">Resume</a></span>
+                <span class = "bullet"> • </span>
+                <span class = "contact"><a href="contact.html">Contact Nate</a></span>
+            </p>
+        </nav>
+
+        <section class = boss>
+        <h1>Nathan Sasapan</h1>
+        <img src="images/nate.jpg" alt="Nathan Sasapan" width = 200 height = 200>
+        <p class="address"> Athens, GA • natesasapan@gmail.com</p>
+        <p class="tagline">I am a 5th year computer science student interested in AI and Web Development</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <h3><i>University of Georgia, Franklin College of Arts and Sciences</i> - Bachelor of Science in Computer Science</h3>
+                <h4><b>GPA: 3.55/4.00</b></h4>
+                <h4><b>Expected Graduation: </b>May 2025</h4>
+                <hr class="divider">
+
+                <div class="course-container">
+                    <div class="course-column">
+                        <h4><b>Certificates:</b></h4>
+                        <ul class="course-list">
+                            <li>CompTIA Network+</li>
+                            <li>CompTIA Security+</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="divider">
+                
+                <div class="course-container">
+                    <div class="course-column">
+                        <h4><b>Completed Courses:</b></h4>
+                        <ul class="course-list">
+                            <li>Algorithms</li>
+                            <li>Data Structures</li>
+                            <li>Theory of Computing</li>
+                            <li>Web Programming</li>
+                            <li>Networks</li>
+                            <li>Systems Programming</li>
+                            <li>Discrete Math</li>
+                            <li>Scientific Computing</li>
+                            <li>Computing Ethics</li>
+                            <li>Software Engineering</li>
+                            <li>Mobile Software Development</li>
+                            <li>Computer Architecture</li>
+                            <li>Human Computer Interaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Honors and Awards</h2>
+            <dl>
+                <dt>UGA Presidential Scholar</dt>
+                <dd>Fall 2023</dd>
+                <dt>UGA Dean's List</dt>
+                <dd>Spring 2022, Fall 2022, Spring 2023, Fall 2024</dd>
+                <dt>HOPE Scholarship recipient</dt>
+                <dd>Fall 2020 - Spring 2025</dd>
+                <dt>UGAHacks 8</dt>
+                <dd>HPCC 1st Place</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, C, Javascript, Typescript</li>
+                <li>Markup Languages: HTML/CSS, XML</li>
+                <li>Frameworks: React, Expo, Next.js, Sveltekit </li>
+                <li>Databases: MongoDB, SQLite, Firebase</li>
+                <li>Software: VSCode, Android Studio, MS Office, Wix, Wordpress, Davinci Resolve</li>
+                <li>Development: Git, GitHub, Databases, APIs, Mobile, Web, Object-Oriented Programming, SDLC</li>
+                <li>Methodologies: Agile (Scrum)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Demos</h2>
+            <div class="demo-item">
+                <h3>CineBook - Cinema Booking Platform</h3>
+                <p>A full-stack cinema booking platform built with Next.js. Watch the demo to see the user interface, booking functionality, and responsive design in action.</p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/WNzewxAIWss" 
+                            title="CineBook Demo" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <div class="demo-item">
+                <h3>Project Images</h3>
+                <p>Check out some images from my previous projects!</p>
+                
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="images/gcars.png" alt="Project Image 1">
+                        <div class="slide-caption">Gorilla Cars Home Page</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="images/gcars2.png" alt="Project Image 2">
+                        <div class="slide-caption">Gorilla Cars Login Page</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="images/gcars3.png" alt="Project Image 3">
+                        <div class="slide-caption">Gorilla Cars Add Item Page</div>
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="images/spoti.stats.png" alt="Project Image 4">
+                        <div class="slide-caption">SpotifyMultitool Enter Link</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/spoti2.png" alt="Project Image 5">
+                        <div class="slide-caption">Spotify Multitool Display Playlist</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/tailorthat!.png" alt="Project Image 6">
+                        <div class="slide-caption">TailorThat! Home Page</div>
+                    </div>
+
+                    <!-- Navigation arrows -->
+                    <button class="nav-arrow prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="nav-arrow next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+
+                <!-- Dots indicator -->
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Projects</h2>
+            <div class="three-col">
+                <a href="https://github.com/Soham231/DreamHaven" class="card-link">
+                    <div class="card">
+                        <img src="images/pd.jpg" alt="DreamHaven Project">
+                        <h3>DreamHaven</h3>
+                        <h5>1st place in HPCC UGA Hackathon</h5>
+                        <ul>
+                            <li>Built a fully functional web app in 48 hours using Python, Streamlit, and ECL, beating 127 competing teams to win 1st place in the HPCC category</li>
+                            <li>Designed responsive UI/UX that handled 150+ test users during judging phase, showcasing scalability and performance optimization</li>
+                            <li>Pitched final product to panel of industry judges, securing victory through clear technical presentation and live product demonstration</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/natesasapan/tailor-that" class="card-link">
+                    <div class="card">
+                        <img src="images/TailorThat.png" alt="TailorThat!">
+                        <h3>TailorThat!</h3>
+                        <h5>Personal Project</h5>
+                        <ul>
+                            <li>Architected a Next.js web application with React and TailwindCSS for resume customization, demonstrating experience with modern frontend frameworks</li>
+                            <li>Led development of a user-centric interface that processes and analyzes document data in real-time, showcasing programming skills in data structures and object-oriented principles</li>
+                            <li>Integrated third-party REST APIs to retrieve and process data</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/natesasapan/gorilla-cars" class="card-link">
+                    <div class="card">
+                        <img src="images/gorilla.png" alt="Gorilla Cars">
+                        <h3>Gorilla Cars </h3>
+                        <h5>Class Project</h5>
+                        <ul>
+                            <li>Led 4-person team developing full-stack React website with user authentication using MongoDB Atlas</li>
+                            <li>Implemented responsive multi-page design, database integration, and secure credential storage</li>
+                            <li>Added react routing, middleware, and organizational structure to facilitate merging of frontend and backend</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/tsdaniels/cinema-ebooking" class="card-link">
+                    <div class="card">
+                        <img src="images/cinema.jpg" alt="Cinebook">
+                        <h3>CineBook</h3>
+                        <h5>Class Project</h5>
+                        <ul>
+                            <li>Led 5-person development team to build cinema booking platform using Next.js, coordinating daily standups and sprint planning to keep project on track for semester deadline</li>
+                            <li>Designed responsive movie database interface with search functionality and user ratings, achieving 95% mobile compatibility score on cross-device testing</li>
+                            <li>Established Git workflow standards including branch protection rules and mandatory code reviews, reducing merge conflicts by 85% across team</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/natesasapan/SpotifyMultitool" class="card-link">
+                    <div class="card">
+                        <img src="images/sp.jpeg" alt="Spotify Multitool">
+                        <h3>SpotifyMultitool</h3>
+                        <h5>Personal Project</h5>
+                        <ul>
+                            <li>Demonstrated proficiency in handling HTTP requests and parsing JSON responses using the `requests` library</li>
+                            <li>Structured the code for modularity, making it easy to extend and customize for future use cases</li>
+                        </ul>
+                    </div>
+                </a>
+                <a href="https://github.com/natesasapan/WorldQuiz" class="card-link">
+                    <div class="card">
+                        <img src="images/worldquiz.jpg" alt="World Quiz">
+                        <h3>World Quiz</h3>
+                        <h5>Class Project</h5>
+                        <ul>
+                            <li>Collaborated in a two-person team to develop a full-featured Android mobile application using Java and Android Studio</li>
+                            <li>Implemented responsive UI with multiple fragments to enable seamless navigation and content display across different screen sizes</li>
+                            <li>Designed and integrated SQLite database to store user data locally, including CRUD operations for persistent data management</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; Nate Sasapan</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
